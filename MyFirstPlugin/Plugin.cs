@@ -2,7 +2,7 @@
 
 namespace MyFirstPlugin
 {
-    [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
+    [BepInPlugin("reeleese.bepinex.plugins.myfirstplugin", "My First Plugin", "1.0.0")]
     public class Plugin : BaseUnityPlugin
     {
         private void Awake()
@@ -12,3 +12,8 @@ namespace MyFirstPlugin
         }
     }
 }
+
+
+// A class that inherits BaseUnityPlugin
+// A BepinPlugin Attribute that contains the plugin's GUID, name, and version
+// Plugin startup code
